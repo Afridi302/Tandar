@@ -77,12 +77,12 @@ vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
 
 os.system("clear")
-print "\033[1;96m ●●●●●●●●●●●●●●●●●●●●<><>●●●●●●●●●●●●●●●●●●●●
-print  ""\033[1;91m●●●●●●●●●●●●●●●●●●●●<><>●●●●●●●●●●●●●●●●●●●●
-\033[1;92m                       OWNER:VEER ASHIQ
-\033[1;95m                         MASTT AFRIDI
-print  ""\033[1;91m●●●●●●●●●●●●●●●●●●●●<><>●●●●●●●●●●●●●●●●●●●●
-print " \x1b[1;96m●●●●●●●●●●●●●●●●●●●●<><>●●●●●●●●●●●●●●●●●●●●
+print "\033[1;96m ●●●●●●●●●●●●●●●●●●●●<><>●●●●●●●●●●●●●●●●●●●●"
+print  """\033[1;91m●●●●●●●●●●●●●●●●●●●●<><>●●●●●●●●●●●●●●●●●●●●
+\033[1;92m                        OWNER:VEER ASHIQ
+\033[1;95m                          MASTT AFRIDI
+print  """\033[1;91m●●●●●●●●●●●●●●●●●●●●<><>●●●●●●●●●●●●●●●●●●●●"""
+print " \x1b[1;96m●●●●●●●●●●●●●●●●●●●●<><>●●●●●●●●●●●●●●●●●●●●"
 
 CorrectUsername = "VEER"
 CorrectPassword = "ASHIQ"
@@ -280,7 +280,7 @@ def pilih_super():
 		pilih_super()
 	
 	print "\033[1;96m[+] \033[1;93mTotal IDs \033[1;91m: \033[1;97m"+str(len(id))
-	jalan('\033[1;96m[✺] \033[1;93mStarting \033[1;97m...')
+	jalan('\033[1;96m[✺] \033[1;93m Veer Starting cloning \033[1;97m...')
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("\r\033[1;96m[\033[1;97m✸\033[1;96m] \033[1;93mCracking \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
